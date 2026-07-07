@@ -2,33 +2,34 @@
 class Trove < Formula
   desc "The Trove command-line tool — knowledge base client + source/toolkit toolchain"
   homepage "https://ontrove.sh"
-  version "0.3.3"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.3.3/trove-darwin-arm64.tar.gz"
-      sha256 "d9126226e802adae4f805fb2c1ad84010bc4c02170c7d3d73e72e7fe7f1bc63e"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.4.0/trove-darwin-arm64.tar.gz"
+      sha256 "408bdcbbcb5d6507fe95fa10a6868b0490c50497ad50af280556c6605f3f1446"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.3.3/trove-darwin-x64.tar.gz"
-      sha256 "9109dbb8524646d6d78755379fa74333465177ffca68d72117375515cd691536"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.4.0/trove-darwin-x64.tar.gz"
+      sha256 "72210267813ebc24dfcaa9a04e6e26bf78c1e9497e187bfc71596dcd059035a7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.3.3/trove-linux-arm64.tar.gz"
-      sha256 "0e228f6fb9ea60660e9b606605a82419880a6da2548c3daee4e61096b6bf9097"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.4.0/trove-linux-arm64.tar.gz"
+      sha256 "3baec76c9f821c0d33e22857fc4c00693192b7ee34fbb86e3b466954b695f9f2"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.3.3/trove-linux-x64.tar.gz"
-      sha256 "c41b69e78c30f2d3e4d157a281441ea0aa13cbbb42024e9eecb8e8fb9b17deb6"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.4.0/trove-linux-x64.tar.gz"
+      sha256 "695f7796d86106e7270efe4f1380fe3e93288da9b90a855841d7dffd1cf1d6de"
     end
   end
 
   def install
     bin.install Dir["trove-*"].first => "trove"
+    prefix.install Dir["LICENSE", "THIRD-PARTY-LICENSES.txt"]
   end
 
   test do
