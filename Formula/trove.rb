@@ -8,22 +8,22 @@ class Trove < Formula
   on_macos do
     on_arm do
       url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.4.0/trove-darwin-arm64.tar.gz"
-      sha256 "408bdcbbcb5d6507fe95fa10a6868b0490c50497ad50af280556c6605f3f1446"
+      sha256 "0aa10ddfe43bc5db6ffdba6cd903608b84c855c1ebf99c9311dd42d3832bcb26"
     end
     on_intel do
       url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.4.0/trove-darwin-x64.tar.gz"
-      sha256 "72210267813ebc24dfcaa9a04e6e26bf78c1e9497e187bfc71596dcd059035a7"
+      sha256 "5f161ad7d6982977dcefef4b6ee6ae4697bf68775c45eae07b1d36f40f861d7e"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.4.0/trove-linux-arm64.tar.gz"
-      sha256 "3baec76c9f821c0d33e22857fc4c00693192b7ee34fbb86e3b466954b695f9f2"
+      sha256 "8db62e266ca538c0570a2a0e711485a327090d2b807661559931c2e5035b49ea"
     end
     on_intel do
       url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.4.0/trove-linux-x64.tar.gz"
-      sha256 "695f7796d86106e7270efe4f1380fe3e93288da9b90a855841d7dffd1cf1d6de"
+      sha256 "5c927660de649202466c76faa88fbb2df5271f1f86da172ec71bf8f010e59061"
     end
   end
 
