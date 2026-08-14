@@ -2,28 +2,28 @@
 class Trove < Formula
   desc "The Trove command-line tool — knowledge base client + source/toolkit toolchain"
   homepage "https://ontrove.sh"
-  version "0.8.0"
+  version "0.10.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.8.0/trove-darwin-arm64.tar.gz"
-      sha256 "6402f2093b7f62d605d2e4b92f5ac8a6565d917fdee0d477e292f43b9e9c3e7c"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.2/trove-darwin-arm64.tar.gz"
+      sha256 "564e786b75700c1e14c9e0d6355d1ebd2254336b432cc549412e6e030c7efbc5"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.8.0/trove-darwin-x64.tar.gz"
-      sha256 "0e4ca31295edf17bb892456c10816e41c493b3620afdf62d5c352efce642cf97"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.2/trove-darwin-x64.tar.gz"
+      sha256 "5fb0726e2be9f3111734c335dc654ef1656720178d81066f28b0b27d2a972f0d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.8.0/trove-linux-arm64.tar.gz"
-      sha256 "1363ad08614931ac3d64eda8ff5bdb1597ff0cb680a1157704f54161f36a5e4a"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.2/trove-linux-arm64.tar.gz"
+      sha256 "b1591c6210db535c1af3c0471d5de97dc34524cacc1a57b0d4ed0d8600a6af92"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.8.0/trove-linux-x64.tar.gz"
-      sha256 "eb5244360332720ffe6b40670a34543ab4680e181f8969d63b6bd758a9bb5a33"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.2/trove-linux-x64.tar.gz"
+      sha256 "8680a6e3ba97bbd70ecc18a80342cc21353bd48eef0b750b92e85aa9b1a71f36"
     end
   end
 
