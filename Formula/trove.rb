@@ -2,28 +2,28 @@
 class Trove < Formula
   desc "The Trove command-line tool — knowledge base client + source/toolkit toolchain"
   homepage "https://ontrove.sh"
-  version "0.10.2"
+  version "0.10.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.2/trove-darwin-arm64.tar.gz"
-      sha256 "564e786b75700c1e14c9e0d6355d1ebd2254336b432cc549412e6e030c7efbc5"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.3/trove-darwin-arm64.tar.gz"
+      sha256 "e950916b1e2aaf7619240f495f0eb7e6db64b32ed1dfcc3bb881d2a7ba45dd34"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.2/trove-darwin-x64.tar.gz"
-      sha256 "5fb0726e2be9f3111734c335dc654ef1656720178d81066f28b0b27d2a972f0d"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.3/trove-darwin-x64.tar.gz"
+      sha256 "71bc5404dcc81fe65b2ad6c4d9b0843fcdb06e46fec65aab425df479aa50ccef"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.2/trove-linux-arm64.tar.gz"
-      sha256 "b1591c6210db535c1af3c0471d5de97dc34524cacc1a57b0d4ed0d8600a6af92"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.3/trove-linux-arm64.tar.gz"
+      sha256 "0e23747fb0e7077ff0fdd41e18f134ad2c981c9d0375e35ded49ac1b8a1dac73"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.2/trove-linux-x64.tar.gz"
-      sha256 "8680a6e3ba97bbd70ecc18a80342cc21353bd48eef0b750b92e85aa9b1a71f36"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.3/trove-linux-x64.tar.gz"
+      sha256 "8b241a13b9f4692b2e5405c656edad8ab9dcbd16713d828fbe75bd1e31ddbad5"
     end
   end
 
