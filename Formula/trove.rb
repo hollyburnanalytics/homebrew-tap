@@ -2,28 +2,28 @@
 class Trove < Formula
   desc "The Trove command-line tool — knowledge base client + source/toolkit toolchain"
   homepage "https://ontrove.sh"
-  version "0.10.3"
+  version "0.10.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.3/trove-darwin-arm64.tar.gz"
-      sha256 "e950916b1e2aaf7619240f495f0eb7e6db64b32ed1dfcc3bb881d2a7ba45dd34"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.4/trove-darwin-arm64.tar.gz"
+      sha256 "0aba30d913642850c9b9d7e09b2f1ae3d2a9e639d1f23f4baffac3f6b73797d0"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.3/trove-darwin-x64.tar.gz"
-      sha256 "71bc5404dcc81fe65b2ad6c4d9b0843fcdb06e46fec65aab425df479aa50ccef"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.4/trove-darwin-x64.tar.gz"
+      sha256 "b2631de0b7d60245019c5695dc4405e35a23fe2944b64b662aed5246b40ca92d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.3/trove-linux-arm64.tar.gz"
-      sha256 "0e23747fb0e7077ff0fdd41e18f134ad2c981c9d0375e35ded49ac1b8a1dac73"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.4/trove-linux-arm64.tar.gz"
+      sha256 "fcc2430936a207223097e79b8ab4da29b10289ee94ec41927bdf6793d5462944"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.3/trove-linux-x64.tar.gz"
-      sha256 "8b241a13b9f4692b2e5405c656edad8ab9dcbd16713d828fbe75bd1e31ddbad5"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.4/trove-linux-x64.tar.gz"
+      sha256 "a4c02667fe56320e19b5ac56ce9601031d490cb19ec09564e84a6b6cece4b06f"
     end
   end
 
