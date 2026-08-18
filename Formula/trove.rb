@@ -2,28 +2,28 @@
 class Trove < Formula
   desc "The Trove command-line tool — knowledge base client + source/toolkit toolchain"
   homepage "https://ontrove.sh"
-  version "0.11.0"
+  version "0.12.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.11.0/trove-darwin-arm64.tar.gz"
-      sha256 "3b63bc6e88d44ada990d37557154217c9ee18079281e539936e3201c90ffc154"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.12.0/trove-darwin-arm64.tar.gz"
+      sha256 "0714d2a1fb0dcf46ef293026d00344bf1c266b7ab0e4f0d5fdad1540e6701472"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.11.0/trove-darwin-x64.tar.gz"
-      sha256 "53b0175c3a6ab5c9d9299361560dc5500fc439b8a86a2047f90e751eb7fa6b7b"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.12.0/trove-darwin-x64.tar.gz"
+      sha256 "d528635777fa43986c644564ce22d3fe5c6207bec7ef680f77850763409822aa"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.11.0/trove-linux-arm64.tar.gz"
-      sha256 "247d77c844cf45aa2754aa4cdb04501ab87a8134b42eae31b8f7cb4a27100cc0"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.12.0/trove-linux-arm64.tar.gz"
+      sha256 "c423ac12555494d80a2af36b8250203bda69fc29aaff6a0a0f7f3ac44b049103"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.11.0/trove-linux-x64.tar.gz"
-      sha256 "07ac3d43a49e914cee02d258fae62b8990f20ddae3324dad54c114737c13b7d6"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.12.0/trove-linux-x64.tar.gz"
+      sha256 "c5cb2a1f646d8e47f757549ad6ca58ccd4f20416f5c415fa938814bbd109c5f1"
     end
   end
 
