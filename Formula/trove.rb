@@ -2,28 +2,28 @@
 class Trove < Formula
   desc "The Trove command-line tool — knowledge base client + source/toolkit toolchain"
   homepage "https://ontrove.sh"
-  version "0.10.4"
+  version "0.11.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.4/trove-darwin-arm64.tar.gz"
-      sha256 "0aba30d913642850c9b9d7e09b2f1ae3d2a9e639d1f23f4baffac3f6b73797d0"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.11.0/trove-darwin-arm64.tar.gz"
+      sha256 "3b63bc6e88d44ada990d37557154217c9ee18079281e539936e3201c90ffc154"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.4/trove-darwin-x64.tar.gz"
-      sha256 "b2631de0b7d60245019c5695dc4405e35a23fe2944b64b662aed5246b40ca92d"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.11.0/trove-darwin-x64.tar.gz"
+      sha256 "53b0175c3a6ab5c9d9299361560dc5500fc439b8a86a2047f90e751eb7fa6b7b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.4/trove-linux-arm64.tar.gz"
-      sha256 "fcc2430936a207223097e79b8ab4da29b10289ee94ec41927bdf6793d5462944"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.11.0/trove-linux-arm64.tar.gz"
+      sha256 "247d77c844cf45aa2754aa4cdb04501ab87a8134b42eae31b8f7cb4a27100cc0"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.10.4/trove-linux-x64.tar.gz"
-      sha256 "a4c02667fe56320e19b5ac56ce9601031d490cb19ec09564e84a6b6cece4b06f"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.11.0/trove-linux-x64.tar.gz"
+      sha256 "07ac3d43a49e914cee02d258fae62b8990f20ddae3324dad54c114737c13b7d6"
     end
   end
 
