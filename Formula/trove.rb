@@ -2,28 +2,28 @@
 class Trove < Formula
   desc "The Trove command-line tool — knowledge base client + source/toolkit toolchain"
   homepage "https://ontrove.sh"
-  version "0.12.0"
+  version "0.13.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.12.0/trove-darwin-arm64.tar.gz"
-      sha256 "0714d2a1fb0dcf46ef293026d00344bf1c266b7ab0e4f0d5fdad1540e6701472"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.13.0/trove-darwin-arm64.tar.gz"
+      sha256 "00b9e95681ca3e092e92a5d0cbe32afce381eaa65cee43bd6f0fc550091295dd"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.12.0/trove-darwin-x64.tar.gz"
-      sha256 "d528635777fa43986c644564ce22d3fe5c6207bec7ef680f77850763409822aa"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.13.0/trove-darwin-x64.tar.gz"
+      sha256 "1c78f8c03e6efbf09d38c62bbc6e3621e927dc2a5fd30add4039151a9dda2254"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.12.0/trove-linux-arm64.tar.gz"
-      sha256 "c423ac12555494d80a2af36b8250203bda69fc29aaff6a0a0f7f3ac44b049103"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.13.0/trove-linux-arm64.tar.gz"
+      sha256 "e29e3ca4e960e29a469208cf83aab718623bee0bc4f4e29f5fe437c60d436543"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.12.0/trove-linux-x64.tar.gz"
-      sha256 "c5cb2a1f646d8e47f757549ad6ca58ccd4f20416f5c415fa938814bbd109c5f1"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.13.0/trove-linux-x64.tar.gz"
+      sha256 "ecd01d50f0a3f2bceac576a2faf4735a4f53adbe381a1a6b994f4e99f4f507b9"
     end
   end
 
