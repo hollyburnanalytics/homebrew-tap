@@ -2,28 +2,28 @@
 class Trove < Formula
   desc "The Trove command-line tool — knowledge base client + source/toolkit toolchain"
   homepage "https://ontrove.sh"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%401.0.0/trove-darwin-arm64.tar.gz"
-      sha256 "83656a482b57f34be91e81daf2f89b1ec898c3d5402c29f5a80c63bb1b914c31"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%401.0.1/trove-darwin-arm64.tar.gz"
+      sha256 "6657d40cb10f9f3befb3aa03508d61f99e1379235a88111eaa1d983e9991219f"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%401.0.0/trove-darwin-x64.tar.gz"
-      sha256 "079e01162c0adb0df6fd00c7db11a4d1b140da1e4fa53de7ddc65c8f92e7cd48"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%401.0.1/trove-darwin-x64.tar.gz"
+      sha256 "055fdedc5ccbb8ddad06ed265e736c09cf3a8bbebc676cb7350357ddabb623d5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%401.0.0/trove-linux-arm64.tar.gz"
-      sha256 "80b25ec4003f33aad3ab585c1a427ea8108fd962970500dfc5fc89caacb5f2ea"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%401.0.1/trove-linux-arm64.tar.gz"
+      sha256 "723ff990fec552d65f6ae78979a373400ce23bd776994987e2870a08ce64bdc5"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%401.0.0/trove-linux-x64.tar.gz"
-      sha256 "156377e40bfd812b197cb119ff5580744a11930be0fa7b24f73c7256621287a7"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%401.0.1/trove-linux-x64.tar.gz"
+      sha256 "6c37b556a4b44dcafe61bde63cecad576b20e6a5fdcc59141c3acfd7c9003829"
     end
   end
 
