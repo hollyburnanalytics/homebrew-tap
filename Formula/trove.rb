@@ -2,28 +2,28 @@
 class Trove < Formula
   desc "The Trove command-line tool — knowledge base client + source/toolkit toolchain"
   homepage "https://ontrove.sh"
-  version "0.13.0"
+  version "1.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.13.0/trove-darwin-arm64.tar.gz"
-      sha256 "00b9e95681ca3e092e92a5d0cbe32afce381eaa65cee43bd6f0fc550091295dd"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%401.0.0/trove-darwin-arm64.tar.gz"
+      sha256 "83656a482b57f34be91e81daf2f89b1ec898c3d5402c29f5a80c63bb1b914c31"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.13.0/trove-darwin-x64.tar.gz"
-      sha256 "1c78f8c03e6efbf09d38c62bbc6e3621e927dc2a5fd30add4039151a9dda2254"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%401.0.0/trove-darwin-x64.tar.gz"
+      sha256 "079e01162c0adb0df6fd00c7db11a4d1b140da1e4fa53de7ddc65c8f92e7cd48"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.13.0/trove-linux-arm64.tar.gz"
-      sha256 "e29e3ca4e960e29a469208cf83aab718623bee0bc4f4e29f5fe437c60d436543"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%401.0.0/trove-linux-arm64.tar.gz"
+      sha256 "80b25ec4003f33aad3ab585c1a427ea8108fd962970500dfc5fc89caacb5f2ea"
     end
     on_intel do
-      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%400.13.0/trove-linux-x64.tar.gz"
-      sha256 "ecd01d50f0a3f2bceac576a2faf4735a4f53adbe381a1a6b994f4e99f4f507b9"
+      url "https://github.com/hollyburnanalytics/trove-packages/releases/download/%40ontrove/cli%401.0.0/trove-linux-x64.tar.gz"
+      sha256 "156377e40bfd812b197cb119ff5580744a11930be0fa7b24f73c7256621287a7"
     end
   end
 
